@@ -798,6 +798,22 @@ section {
     padding: 10px;
   }
 
+  ul.info {
+    padding-left: 10px !important;
+    font-size: smaller;
+  }
+  h2.heading {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  h3.sub-heading, p.sub-heading {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section-header h2::before{
+    left: 20px;
+  }
+
   
 }
 
