@@ -781,6 +781,10 @@ section {
 }
 
 @media (max-width: 767px) {
+  #servicespub .box {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   #servicespub .box .box {
     margin-bottom: 20px;
   }
@@ -793,6 +797,7 @@ section {
     text-align: left;
     text-align: justify;
     text-justify: inter-word;
+    
   }
   .column {
     float: left;
