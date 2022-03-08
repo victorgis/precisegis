@@ -605,7 +605,7 @@
 
       <div class="container" id="contactus">
         <div class="form">
-          <form action="form-to-email.php" method="post" name="myemailform" role="form" class="php-email-form">
+          <form class="php-email-form" netlify>
             <div class="row">
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -630,15 +630,7 @@
             <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
         </div>
-        <script language="JavaScript">
-          // Code for validating the form
-          // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-          // for details
-          var frmvalidator  = new Validator("myemailform");
-          frmvalidator.addValidation("name","req","Please provide your name"); 
-          frmvalidator.addValidation("email","req","Please provide your email"); 
-          frmvalidator.addValidation("email","email","Please enter a valid email address"); 
-        </script>
+        
 
       </div>
     </section><!-- End Contact Section -->
