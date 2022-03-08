@@ -791,6 +791,8 @@ section {
   #servicespub .box h4, #servicespub .box p {
     margin-left: 0;
     text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
   }
   .column {
     float: left;
@@ -813,6 +815,10 @@ section {
   .section-header h2::before{
     left: 20px;
   }
+  /* p.blog {
+    text-align: justify;
+    text-justify: inter-word;
+  } */
 
   
 }
