@@ -699,13 +699,15 @@ section {
     margin-bottom: 20px;
   }
   #servicesstore .box img.imgstore {
-    /* display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%; */
-    display: none;
+    width: 50%;
     
   }
+
+
+
   #servicesstore .box h4, #services .box p {
     margin-left: 0;
     text-align: center;
