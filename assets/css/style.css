@@ -367,8 +367,8 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 767px) {
   #hero .hero-content h2 {
     font-size: 34px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 #hero .hero-content .btn-get-started, #hero .hero-content .btn-projects {
