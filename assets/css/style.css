@@ -435,6 +435,9 @@ section {
 .section-header {
   margin-bottom: 30px;
 }
+.section-header-b {
+  margin-bottom: 130px;
+}
 .section-header h2 {
   font-size: 32px;
   color: #0c2e8a;
