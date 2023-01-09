@@ -4,6 +4,31 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+
+
+
+//   const register = document.getElementById("register")
+//   register.innerHTML = `<div style="margin-top: 5px; text-align: center; ">
+//   <div class="#">Click here to make payments</div>
+//   <a href="https://flutterwave.com/pay/fxuhgkvdkq4v"><button style="margin-top: 5px; text-align: center; color: white; background: green;">Pay via flutterwave</button></a>
+// </div>`
+
+
+// function handleClick (){
+//   setTimeout(()=>{
+//     console.log("hello")
+//   },2000)
+//   const register = document.getElementById("register")
+//   register.innerHTML = `<div style="margin-top: 5px; text-align: center; ">
+// //   <div class="#">Click here to make payments</div>
+// //   <a href="https://flutterwave.com/pay/fxuhgkvdkq4v"><button style="margin-top: 5px; text-align: center; color: white; background: green;">Pay via flutterwave</button></a>
+// // </div>`
+// }
+
+
+  
+
 (function() {
   "use strict";
 

@@ -1331,3 +1331,21 @@ section {
 #footer .credits a {
   color: #0c2e8a;
 }
+
+.section-header2 {
+  /* align-items: center !important; */
+  text-align: justify;
+  /* text-align: center; */
+}
+
+.registration {
+  text-align: justify;
+  line-height: 35px;
+}
+.form-display {
+  display: flex;
+}
+
+.inner {
+  text-align: center;
+}
