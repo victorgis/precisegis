@@ -130,7 +130,8 @@
           
         </div>
         <div class="form">
-          <form netlify>
+          <form id="contact-form" method="POST">
+            <input type="hidden" name="contact_number">
             <div class="row" >
               <div class="form-group col-md-6">
                 <!-- <label for="inputEmail4">Email</label> -->
@@ -157,6 +158,8 @@
                 <input type="text" name="expectations" class="form-control mt-4" id="inputPassword4" placeholder="Please share your expectations">
               </div>
               <button type="submit" class="btn btn-success mt-4">Submit</button>
+
+              <div id="alertMe" class="margin-top-20 mt-4"></div>
             </div>
             <!-- <button class="btn btn-success mt-4" type="button"> Submit</button> -->
           </form>
