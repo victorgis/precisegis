@@ -14,6 +14,7 @@ const htmlSent = `
 <div class="alert alert-success" role="alert">
 <h4 class="alert-heading">Well done!</h4>
 <p>Message Sent</p>
+<p>Please check your email to proceedd with next steps</p>
 </div>
 `;
 const htmlNotSent = `
